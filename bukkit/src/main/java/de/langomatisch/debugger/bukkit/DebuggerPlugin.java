@@ -6,6 +6,7 @@ import de.langomatisch.debugger.bukkit.impl.BukkitPlayerWrapper;
 import de.langomatisch.debugger.bukkit.impl.BukkitWorldWrapper;
 import de.langomatisch.debugger.bukkit.parser.BukkitPlayerParser;
 import de.langomatisch.debugger.bukkit.parser.BukkitWorldParser;
+import de.langomatisch.debugger.parser.BooleanParser;
 import de.langomatisch.debugger.parser.DebugParser;
 import de.langomatisch.debugger.parser.IntegerParser;
 import de.langomatisch.debugger.parser.StringParser;
@@ -26,6 +27,8 @@ public class DebuggerPlugin extends JavaPlugin {
         DebugRegistry.register(new BukkitWorldWrapper());
         DebugParser.registerParser(new StringParser());
         DebugParser.registerParser(new IntegerParser());
+        DebugParser.registerParser(new BooleanParser());
+        DebugParser.registerParser(BooleanParser.createPrimitiveParser());
         DebugParser.registerParser(new BukkitPlayerParser());
         DebugParser.registerParser(new BukkitWorldParser());
         getCommand("debug").setExecutor(new DebugCommand());

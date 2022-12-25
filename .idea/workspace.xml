@@ -5,34 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b073ab31-6dd7-40b8-99e7-c02c47f664f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/DebuggerPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/command/DebugCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/impl/BukkitPlayerWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/impl/BukkitWorldWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/parser/BukkitPlayerParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/parser/BukkitWorldParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/DebugRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/DebugWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/executable/DebugExecutable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/executable/DebugField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/executable/DebugMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/executable/DebugVoid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/parser/DebugParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/parser/IntegerParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/parser/StringParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/de/langomatisch/debugger/example/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main/java/de/langomatisch/debugger/example/wrapper/TestWrapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/parser/BooleanParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/DebuggerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/DebuggerPlugin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +55,7 @@
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -91,11 +67,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672001679835</updated>
-      <workItem from="1672001680977" duration="9883000" />
+      <workItem from="1672001680977" duration="10606000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1672011620691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672011620691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
