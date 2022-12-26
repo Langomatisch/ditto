@@ -22,4 +22,6 @@ The command to use the debugger:
 - [ ] Add support for BungeeCord
 - [ ] Notify the player when a value has changed
 - [ ] Add support for private/final/static fields
-- [ ] Add support for more internal classes of Minecraft
+- [ ] Add support for more internal classes of Spigot
+- [ ] Add support for more internal classes of BungeeCord
+- [ ] Create a more sophisticated way to use the parser
