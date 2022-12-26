@@ -18,7 +18,6 @@ public abstract class DebugWrapper<T> {
 
     public DebugWrapper(Class<T> tClass) {
         this.tClass = tClass;
-        System.out.println(tClass.getSimpleName()+" has " + tClass.getFields().length + " fields");
         for (Field field : tClass.getFields()) {
             debugExecutableMap.put(field.getName(), new DebugField<>(field));
         }
@@ -29,9 +28,7 @@ public abstract class DebugWrapper<T> {
             handleMethod(method);
         }
         System.out.println("we got " + debugExecutableMap.size() + " debug executables");
-        System.out.println("we got " + getCountOf(DebugField.class) + " fields");
-        System.out.println("we got " + getCountOf(DebugMethod.class) + " methods");
-    }
+   }
 
     private <V extends DebugExecutable<?>> int getCountOf(Class<V> exec) {
         int count = 0;

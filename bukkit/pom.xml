@@ -58,7 +58,7 @@
                         <configuration>
                             <artifactSet>
                                 <includes>
-                                    <include>de.langomatisch:common</include>
+                                    <include>de.langomatisch:ditto-common</include>
                                 </includes>
                             </artifactSet>
                         </configuration>

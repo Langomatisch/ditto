@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b073ab31-6dd7-40b8-99e7-c02c47f664f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/debugger/parser/BooleanParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/ditto/bukkit/impl/BukkitLocationWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/ditto/bukkit/parser/BukkitLocationParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/DebuggerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/debugger/bukkit/DebuggerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bukkit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bukkit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/ditto/bukkit/DebuggerPlugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/bukkit/src/main/java/de/langomatisch/ditto/bukkit/DebuggerPlugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/DebugRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/DebugRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/DebugWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/DebugWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/executable/DebugMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/executable/DebugMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/parser/IntegerParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/de/langomatisch/ditto/common/parser/IntegerParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "corretto-17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -68,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672001679835</updated>
       <workItem from="1672001680977" duration="10606000" />
+      <workItem from="1672049731252" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1672011620691</created>
@@ -76,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672011620691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Renamed everything to Ditto">
+      <created>1672050098702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672050098702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +98,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Renamed everything to Ditto" />
+    <option name="LAST_COMMIT_MESSAGE" value="Renamed everything to Ditto" />
   </component>
 </project>

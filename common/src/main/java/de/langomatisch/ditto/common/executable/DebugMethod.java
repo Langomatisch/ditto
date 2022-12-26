@@ -27,6 +27,7 @@ public class DebugMethod<T> extends DebugExecutable<T> {
                 throw new IllegalArgumentException("No parser for type " + parameterType.getName());
             }
             if(!parserOfType.isValidInput(objects[index])) {
+                System.out.println("we expected input type of " + parserOfType.getTClass().getSimpleName()+":INPUT but we got '"+objects[index]+"'");
                 throw new IllegalArgumentException("Invalid input for type " + parameterType.getName());
             }
             String input = objects[index];

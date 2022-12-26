@@ -12,7 +12,7 @@ public class DebugRegistry {
 
     public static void register(DebugWrapper<?> wrapper) {
         String simpleName = wrapper.getClass().getSimpleName();
-        System.out.println("Registered " + simpleName + " test");
+        System.out.println("Registered " + simpleName );
         wrapperMap.put(simpleName, wrapper);
     }
 
