@@ -1,15 +1,15 @@
-package de.langomatisch.debugger.bukkit;
+package de.langomatisch.ditto.bukkit;
 
-import de.langomatisch.debugger.DebugRegistry;
-import de.langomatisch.debugger.bukkit.command.DebugCommand;
-import de.langomatisch.debugger.bukkit.impl.BukkitPlayerWrapper;
-import de.langomatisch.debugger.bukkit.impl.BukkitWorldWrapper;
-import de.langomatisch.debugger.bukkit.parser.BukkitPlayerParser;
-import de.langomatisch.debugger.bukkit.parser.BukkitWorldParser;
-import de.langomatisch.debugger.parser.BooleanParser;
-import de.langomatisch.debugger.parser.DebugParser;
-import de.langomatisch.debugger.parser.IntegerParser;
-import de.langomatisch.debugger.parser.StringParser;
+import de.langomatisch.ditto.bukkit.command.DebugCommand;
+import de.langomatisch.ditto.bukkit.impl.BukkitPlayerWrapper;
+import de.langomatisch.ditto.bukkit.impl.BukkitWorldWrapper;
+import de.langomatisch.ditto.bukkit.parser.BukkitPlayerParser;
+import de.langomatisch.ditto.bukkit.parser.BukkitWorldParser;
+import de.langomatisch.ditto.common.DebugRegistry;
+import de.langomatisch.ditto.common.parser.BooleanParser;
+import de.langomatisch.ditto.common.parser.DebugParser;
+import de.langomatisch.ditto.common.parser.IntegerParser;
+import de.langomatisch.ditto.common.parser.StringParser;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.plugin.java.annotation.command.Command;
 import org.bukkit.plugin.java.annotation.command.Commands;

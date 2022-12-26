@@ -1,4 +1,4 @@
-package de.langomatisch.debugger;
+package de.langomatisch.ditto.common;
 
 import lombok.Getter;
 

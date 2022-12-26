@@ -1,6 +1,6 @@
-package de.langomatisch.debugger.executable;
+package de.langomatisch.ditto.common.executable;
 
-import de.langomatisch.debugger.parser.DebugParser;
+import de.langomatisch.ditto.common.parser.DebugParser;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 

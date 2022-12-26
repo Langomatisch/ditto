@@ -1,8 +1,8 @@
-package de.langomatisch.debugger;
+package de.langomatisch.ditto.common;
 
-import de.langomatisch.debugger.executable.DebugExecutable;
-import de.langomatisch.debugger.executable.DebugField;
-import de.langomatisch.debugger.executable.DebugMethod;
+import de.langomatisch.ditto.common.executable.DebugExecutable;
+import de.langomatisch.ditto.common.executable.DebugField;
+import de.langomatisch.ditto.common.executable.DebugMethod;
 import lombok.Getter;
 
 import java.lang.reflect.Field;

@@ -1,4 +1,4 @@
-# Debugger
+# Ditto Debugger
 
 This is a simple Minecraft Spigot/BungeeCord plugin that allows you to debug your code more quickly.
 

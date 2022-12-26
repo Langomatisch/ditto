@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>de.langomatisch</groupId>
-        <artifactId>mc-debugger</artifactId>
+        <artifactId>ditto-parent</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>bukkit</artifactId>
+    <artifactId>ditto-bukkit</artifactId>
 
     <properties>
         <maven.compiler.source>16</maven.compiler.source>
@@ -38,7 +38,7 @@
         </dependency>
         <dependency>
             <groupId>de.langomatisch</groupId>
-            <artifactId>common</artifactId>
+            <artifactId>ditto-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>

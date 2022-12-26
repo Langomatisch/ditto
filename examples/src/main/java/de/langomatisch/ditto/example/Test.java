@@ -1,4 +1,4 @@
-package de.langomatisch.debugger.example;
+package de.langomatisch.ditto.example;
 
 import lombok.RequiredArgsConstructor;
 

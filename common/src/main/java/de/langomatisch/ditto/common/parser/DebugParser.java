@@ -1,4 +1,4 @@
-package de.langomatisch.debugger.parser;
+package de.langomatisch.ditto.common.parser;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

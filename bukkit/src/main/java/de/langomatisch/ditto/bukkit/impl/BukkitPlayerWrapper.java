@@ -1,6 +1,6 @@
-package de.langomatisch.debugger.bukkit.impl;
+package de.langomatisch.ditto.bukkit.impl;
 
-import de.langomatisch.debugger.DebugWrapper;
+import de.langomatisch.ditto.common.DebugWrapper;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 

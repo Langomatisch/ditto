@@ -1,8 +1,8 @@
-package de.langomatisch.debugger.example.wrapper;
+package de.langomatisch.ditto.example.wrapper;
 
 
-import de.langomatisch.debugger.DebugWrapper;
-import de.langomatisch.debugger.example.Test;
+import de.langomatisch.ditto.common.DebugWrapper;
+import de.langomatisch.ditto.example.Test;
 
 import java.util.ArrayList;
 import java.util.HashMap;

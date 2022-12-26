@@ -1,4 +1,4 @@
-package de.langomatisch.debugger.parser;
+package de.langomatisch.ditto.common.parser;
 
 public class StringParser extends DebugParser<String>{
 

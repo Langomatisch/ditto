@@ -1,6 +1,6 @@
-package de.langomatisch.debugger.bukkit.parser;
+package de.langomatisch.ditto.bukkit.parser;
 
-import de.langomatisch.debugger.parser.DebugParser;
+import de.langomatisch.ditto.common.parser.DebugParser;
 import org.bukkit.Bukkit;
 import org.bukkit.World;
 

@@ -1,10 +1,10 @@
-package de.langomatisch.debugger.bukkit.command;
+package de.langomatisch.ditto.bukkit.command;
 
-import de.langomatisch.debugger.DebugRegistry;
-import de.langomatisch.debugger.DebugWrapper;
-import de.langomatisch.debugger.executable.DebugExecutable;
-import de.langomatisch.debugger.executable.DebugField;
-import de.langomatisch.debugger.executable.DebugVoid;
+import de.langomatisch.ditto.common.DebugRegistry;
+import de.langomatisch.ditto.common.DebugWrapper;
+import de.langomatisch.ditto.common.executable.DebugExecutable;
+import de.langomatisch.ditto.common.executable.DebugField;
+import de.langomatisch.ditto.common.executable.DebugVoid;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabExecutor;

@@ -1,4 +1,4 @@
-package de.langomatisch.debugger.executable;
+package de.langomatisch.ditto.common.executable;
 
 public abstract class DebugExecutable<T> {
 
